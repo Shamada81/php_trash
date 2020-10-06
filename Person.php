@@ -24,10 +24,7 @@ class Person{
 	    Меня зовут: ".$this->name."<br>
 	    Мою маму зовут: ".$this->mother->name."<br>
 	    Моего папу зовут: ".$this->getFather()->getName()."<br>
-	    По папиной линии: <br>
-	            дедушка: ".$this->getFather()->getName()."<br>
-	            бабушка: ".$this->getMother()->getName()."<br>
-	    ";
+	   ";
 	}
 	public function getInfo2(){
 	  return "
